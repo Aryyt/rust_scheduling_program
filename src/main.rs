@@ -11,7 +11,7 @@ fn main() {
     let path:String = "src/weightedIntervals.txt".to_owned();
     let mut intervals: Vec<Interval> = get_intervals_sorted_finishing(path);
     let temp = get_predecessor(0, intervals[0].start(), &intervals);
-    println!("Hello, world! {}", temp);
+    println!("Hello, world! hope this works {}", temp);
 }
 
 fn schedueling_algo(intervals: Vec<Interval>) {
